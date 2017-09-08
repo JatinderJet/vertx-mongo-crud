@@ -1,0 +1,5 @@
+username: mongodb
+password: mongodb
+db_name: catalogdb
+connection_string: mongodb://catalog-mongodb:27017
+catalog.http.port: 8081
