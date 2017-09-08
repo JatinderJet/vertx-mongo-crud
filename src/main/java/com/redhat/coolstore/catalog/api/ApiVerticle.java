@@ -86,17 +86,7 @@ public class ApiVerticle extends AbstractVerticle {
 	}
 
 	private void getProduct(RoutingContext rc) {
-		//----
-		// Needs to be implemented
-		// In the implementation:
-		// * Call the `getProduct()` method of the CatalogService.
-		// * In the handler, transform the `Product response to a `JsonObject` object.
-		// * Put a "Content-type: application/json" header on the `HttpServerResponse` object. 
-		// * Write the `JsonObject` to the `HttpServerResponse`, and end the response.
-		// * If the `getProduct()` method of the CatalogService returns null,  fail the RoutingContext with a 404 HTTP status code 
-		// * If the `getProduct()` method returns a failure, fail the `RoutingContext`.
-		//----
-		// Read the passed itemId
+        	// Read the passed itemId
 		String ietmId = rc.request().getParam("itemId");
 		
 		/*DeliveryOptions options = new DeliveryOptions();
