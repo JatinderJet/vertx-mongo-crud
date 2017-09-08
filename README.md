@@ -1,6 +1,6 @@
 ## Vert.x demo for Mongo CRUD on Openshift
 
-1. Use oc cli for creating mongo pod.
+- Use oc cli for creating mongo pod.
 ```
 $ oc process -f ocp/coolstore-catalog-mongodb-persistent.yaml -p CATALOG_DB_USERNAME=mongodb -p CATALOG_DB_PASSWORD=mongodb -p CATALOG_DATABASE=catalogdb | oc create -f -
 ```
